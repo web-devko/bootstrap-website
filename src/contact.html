@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../scss/custom.scss">
+</head>
+
+<body>
+    <header>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">
+                    <img src="../photos/cosmetics.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+
+                    Kosmetpol</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-1">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../src/index.html">Główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/products.html">Produkty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/galery.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/form.html">Formularz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../src/contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+
+                    <!-- search -->
+                    <form class="d-flex ">
+                        <input type="search" class="form-control rounded light" placeholder="Szukaj" aria-label="Search"
+                            aria-describedby="search-addon" />
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-contact">
+        <!-- <img src="../photos/top.png" class="img-fluid photo" alt="..."> -->
+        <h1 class="header-text visually-hidden">Kontakt</h1>
+        <div class="px-4 py-5 my-5 text-center text-contanct">
+            <h1 class="display-5 fw-bold">Kontakt</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Napisz do nas lub zadzwoń, jesteśmy dostępni 24h na dobę!</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a type="button" class="btn btn-secondary btn-lg px-4 gap-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Nacisnij aby przejsc do formularza" href="../src/form.html">Napisz formularz
+                    <a type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="tooltip" data-bs-placement="top" title="Nacisnij aby zadzwonic">Zadzwoń teraz
+                </div>
+            </div>
+        </div>
+
+        <div class="b-example-divider"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Telefon</h5>
+                            <p class="card-text">Nr tel. (+48)123123123 <br>
+                                Nr. tel. (+48)32132123321 <br>
+                                Nr. stacjonarny (043)553123 <br>
+                                Mail: <strong>example@example.com</strong>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Adres</h5>
+                            <strong>Siedziba w Warszawie</strong>
+                            <p class="card-text">12-345 <br>
+                                Warszawa <br>
+                                Ul. Warszawska 78/3 <br>
+                                Polska
+                            </p>
+
+                            </p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Nacijnij zeby skopiowac adres">Kopiuj adres</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+                <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <hr class="featurette-divider">
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2017–2021 Kosmetpol, Inc. &middot; <a href="#">Prywatne</a> &middot; <a href="#">Regulamin</a></p>
+    </footer>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

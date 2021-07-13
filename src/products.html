@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../scss/custom.scss">
+</head>
+
+<body>
+    <header>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-xl">
+
+                <a class="navbar-brand" href="#">
+                    <img src="../photos/cosmetics.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+
+                    Kosmetpol</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-1">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../src/index.html">Główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../src/products.html">Produkty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/galery.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/form.html">Formularz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+
+                    <!-- search -->
+                    <form class="d-flex ">
+
+                        <input type="search" class="form-control rounded light" placeholder="Szukaj" aria-label="Search"
+                            aria-describedby="search-addon" />
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-contact">
+
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <h1 class="bottom-50">Dostępne produkty <button type="button" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Produkty w koszyku">
+                        Produkty w koszyku <span class="badge bg-secondary">4</span>
+                    </button></h1>
+
+                <br>
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="../photos/cos-3.png" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Krem do rąk bella</h5>
+                                    30 zł
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                                Promocja</div>
+                            <img class="card-img-top" src="../photos/cos-2.png" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Mydło syberyjskie</h5>
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <span class="text-muted text-decoration-line-through">45 zł</span>
+                                    30zł
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" data-bs-toggle="tooltip" data-bs-placement="top" title="Dodaj do koszya">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                                Promocja</div>
+                            <img class="card-img-top" src="../photos/cos-1.png" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Dzika róża odżywka do włosów</h5>
+                                    <span class="text-muted text-decoration-line-through">80zł</span>
+                                    65zł
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" data-bs-toggle="tooltip" data-bs-placement="top" title="Dodaj do koszya">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                                Promocja</div>
+                            <img class="card-img-top" src="../photos/cos-2.png" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Mydło</h5>
+                                    <span class="text-muted text-decoration-line-through">80zł</span>
+                                    65zł
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" data-bs-toggle="tooltip" data-bs-placement="top" title="Dodaj do koszya">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                                Promocja</div>
+                            <img class="card-img-top" src="../photos/cos-3.png" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Szampon do włosów</h5>
+                                    <span class="text-muted text-decoration-line-through">60zł</span>
+                                    65zł
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" data-bs-toggle="tooltip" data-bs-placement="top" title="Dodaj do koszya">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                                Promocja</div>
+                            <img class="card-img-top" src="../photos/cos-1.png" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Dzika róża odżywka do włosów</h5>
+                                    <span class="text-muted text-decoration-line-through">80zł</span>
+                                    65zł
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" data-bs-toggle="tooltip" data-bs-placement="top" title="Dodaj do koszya">Dodaj do koszyka</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Czy napewno chcesz dodać do koszyka
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Kliknij zatwierdź aby dodać do koszyka
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Zamknij</button>
+                                    <button type="button" class="btn btn-primary">Zatwierdź</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr class="featurette-divider">
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2017–2021 Kosmetpol, Inc. &middot; <a href="#">Prywatne</a> &middot; <a href="#">Regulamin</a></p>
+    </footer>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
